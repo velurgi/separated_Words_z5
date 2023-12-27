@@ -12,9 +12,9 @@ int main()
 	cout << "Введите строку: " << endl;
 	string str;
 	getline(cin, str);
-	//cout << "Введите разделяющий символ: ";
+	cout << "Введите разделяющий символ: ";
 	char separator[] = " ";
-	/*cin >> separator;*/
+	cin >> separator;
 	int maxLength{ 0 };
 	int minLength = 2 ^ 32;
 	int checkChar{ 0 };
